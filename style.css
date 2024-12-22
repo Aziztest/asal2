@@ -156,3 +156,51 @@ width: 300px;
     margin-bottom: 15px;
     cursor: pointer;
 }
+.div4{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px;
+    
+}
+.div4 img{
+
+    width: 750px;
+    height: auto;
+    padding-bottom :70px; 
+}
+
+.div4 h2{
+font-size: 50px;
+padding-top: 70px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 50px;
+ margin-left: 40px;
+  margin-right: 80px; 
+
+}
+
+.div4 p{
+margin-left: 40px; 
+margin-right: 80px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
+
+}
+
+
+.div4 input{
+  
+    margin-left: 40px; 
+    margin-right: 80px; 
+  
+    background-color:rgb(8, 161, 172);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+   
+
+
+}
+
+
