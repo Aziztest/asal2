@@ -204,3 +204,78 @@ line-height: 1.5;
 }
 
 
+.div5 a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(8, 161, 172);
+    display: inline;
+    white-space: nowrap;
+}
+.div5 input{
+  
+   /* border:2px double rgb(8, 161, 172);
+    background-color: white;
+*/
+border: 2px solid rgb(8, 161, 172);
+    background-color: white;      
+padding: 7px;
+padding-left: 15px;
+padding-right: 15px;
+text-align: center;
+margin-right:10px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+.div5 div{
+    border: 1px solid;
+    margin: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    padding-top: 2px;
+
+}
+
+
+.div5 div:hover{
+    box-shadow: 0 0 10px rgba(8, 161, 172), 0 0 10px rgba(8, 161, 172);
+ 
+}
+
+.div5{
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+    
+    overflow-x: auto;
+    gap: 20px;
+    scroll-behavior: smooth;
+}
+
+.div5 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    white-space: nowrap;
+}
+.div5 h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999;
+
+}
+
+
+.price{
+    margin: 10px ;
+    font-size: 1rem;
+    
+}
+.current-Price{
+    font-weight: bold;
+    color: #333;
+}
+.original_price{
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+}
